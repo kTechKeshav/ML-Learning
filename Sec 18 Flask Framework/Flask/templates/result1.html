@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Result 1</title>
+</head>
+<body style="font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; background-color: #f0f2f5;">
+      <div style="background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); width: 400px;">
+            <h1 style="text-align: center; color: #1a73e8; margin-bottom: 30px;">Form Submission Results</h1>
+            <table style="width: 100%; border-collapse: collapse;">
+                  {% for key, value in results.items(): %}
+                  <tr style="border-bottom: 1px solid #eee;">
+                        <td style="padding: 15px; color: #333; font-weight: bold; width: 30%;">{{key|title}}:</td>
+                        <td style="padding: 15px; color: #666;">{{value}}</td>
+                  </tr>
+                  {% endfor %}
+            </table>
+            <div style="text-align: center; margin-top: 30px;">
+                  <a href="/" style="display: inline-block; padding: 10px 20px; background-color: #1a73e8; color: white; text-decoration: none; border-radius: 4px;">Back to Form</a>
+            </div>
+      </div>
+</body>
+</html>

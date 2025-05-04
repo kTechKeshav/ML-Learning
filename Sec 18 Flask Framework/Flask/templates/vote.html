@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Can I Vote</title>
+</head>
+<body>
+      <h2>Your age is -> {{age}}</h2>
+      {% if age >= 18 %}
+      <h3>You can vote</h3>
+      {% else %}
+      <h3>You can't vote</h3>
+      {% endif %}
+</body>
+</html>
