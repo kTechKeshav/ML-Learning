@@ -6,3 +6,5 @@ seaborn
 bs4
 requests
 flask
+streamlit
+scikit-learn
