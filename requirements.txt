@@ -8,3 +8,4 @@ requests
 flask
 streamlit
 scikit-learn
+imblearn
