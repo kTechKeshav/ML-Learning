@@ -12,3 +12,4 @@ imblearn
 openpyxl
 statsmodels
 plotly
+kneed
